@@ -49,12 +49,13 @@ body {
 }
 
 .conteudoPrincipal-cursos-link{
-	height: 100px;
+	height: 250px;
 	background-color: #FFF;
 	text-align: center;
 	margin: 1%;
 	transition: .3s;
 	box-shadow:  2px 2px 2px #CCC;
+	border-radius: 10px;
 	position: relative;
 }
 
@@ -71,7 +72,8 @@ body {
 }
 
 .conteudoPrincipal-cursos-link:hover {
-	box-shadow: 0px 0px 1px 2px #0073ff;
+	box-shadow: 0px 0px 1px 2px #08c5e656;
+	transform: scale(1.1);
 }
 
 .conteudoPrincipal-cursos-link a:before {
@@ -79,7 +81,7 @@ body {
 	display: block;
 	width: 50px;
 	height: 50px;
-	margin: 10px auto;
+	margin: 60px auto;
 }
 
 .conteudoPrincipal-cursos-link:nth-child(even) a:before {
@@ -220,13 +222,13 @@ body {
 	}
 
 	.cabecalhoPrincipal-nav-link {
-		border-radius: 5px;
-		border: 1px solid #9799A6;
+		border-radius: 10px;
+		border: 1px solid #08c5e656;
 	}
 
 	.cabecalhoPrincipal-nav-link:hover {
 		color: #FFF;
-		background-color: #9799A6;
+		background-color: #52525274;
 	}
 
 	.cabecalhoPrincipal-titulo {
