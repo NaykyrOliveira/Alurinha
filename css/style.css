@@ -211,6 +211,17 @@ body {
 	margin-bottom: 10px;
 }
 
+/*versão mobile*/
+.cabecalhoPrincipal-nav {
+	flex-direction: column;
+}
+
+.cabecalhoPrincipal .container {
+	flex-direction: column;
+	align-items: initial;
+	text-align: center;
+}
+
 @media(min-width: 769px) {
 
 	.container {
